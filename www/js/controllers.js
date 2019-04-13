@@ -25,4 +25,10 @@ angular.module('starter.controllers', [])
   $scope.settings = {
     enableFriends: true
   };
+})
+
+.controller("subCategoriaCtrl",function($scope,$state) {
+    $scope.redireccionar = function() {
+    $state.go("tab.dash")
+    }
 });

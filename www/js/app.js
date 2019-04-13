@@ -81,6 +81,22 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         //controller: 'AccountCtrl'
       }
     }
+  })
+
+   .state('tab.categoria', {
+    url: '/categoria',
+    views: {
+      'tab-categoria': {
+        templateUrl: 'templates/categorias.html',
+        //controller: 'AccountCtrl'
+      }
+    }
+  })
+
+   .state('subCategoria', {
+    url: '/subCategoria',
+    templateUrl: 'templates/subCategoria.html',
+    controller: "subCategoriaCtrl"
   });
 
   // if none of the above states are matched, use this as the fallback
