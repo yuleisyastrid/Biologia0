@@ -1,0 +1,12 @@
+<ion-view view-title="ADN" class="Vista-ADN">>
+	<ion-content has-subheader="false" class="Vista-ADN">
+		<div class="row">
+			<div class="col text-center" >
+				<div style="background: rgba(0,0,0,0.9);">
+					<div id="stage">
+					  <div id="spinner" style="text-align: center; color: #fff;">
+					    
+					</div>
+		</div>
+	</ion-content>
+</ion-view>
